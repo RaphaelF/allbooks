@@ -18,5 +18,6 @@ server.use(/^(?!\/(public|livros|autores|categorias)).*$/, authenticationMiddlew
 server.use(router) //rotas na prota 3000
 
 server.listen(8000, () => {
-  console.log("Acesso em http://localhost:8000")
+  console.log("Boas vindas ao AllBooks")
+  console.log("http://localhost:8000")
 })
